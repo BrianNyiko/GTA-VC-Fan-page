@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Grand_Theft_Auto_Vice_City_logo.svg" alt="logo">
+        <nav class="navbar">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="missions.html">Missions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
+        <main>
+            <section class="form">
+                <div class="contact-form">
+                    <h1>Contact Us</h1>
+                    <form action="https://formsubmit.co/s227929209@mandela.ac.za" method="post">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+                            <div id="fill">
+                                <label for="FullName">Full Name</label>
+                                <input type="text" id="FullName" name="FullName" required placeholder="Enter your full name">
+                            </div>
+                            <div id="fill">
+                                <label for="Email">Email Acc.</label>
+                                <input type="email" id="Email" name="Email" required placeholder="Enter your email address">
+                            </div>
+                            <div id="fill">
+                                <label for="IDNumber">ID Number</label>
+                                <input type="number" id="IDNumber" name="IDNumber" required placeholder="Enter your ID number">
+                            </div>
+                            <p>Gender</p>
+                            <div id="fill">
+                                <label for="Male">Male</label>
+                                <input type="radio" name="gender" value="male">
+                                <label for="Female">Female</label>
+                                <input type="radio" name="gender" value="female">
+                            </div>
+                        </fieldset>
+                        <div id="fill">
+                            <label for="Country">Country</label>
+                            <select name="Country" id="Country">
+                                <option value="South Africa">South Africa</option>
+                                <option value="Botswana">Botswana</option>
+                                <option value="Zimbabwe">Zimbabwe</option>
+                                <option value="Namibia">Namibia</option>
+                                <option value="Lesotho">Lesotho</option>
+                                <option value="Swaziland">Swaziland</option>
+                                <option value="Mozambique">Mozambique</option>
+                                <option value="Zambia">Zambia</option>
+                                <option value="Tanzania">Tanzania</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="Burundi">Burundi</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div id="fill">
+                            <label for="Date">Date</label>
+                            <input type="date" id="Date" name="Date" required>
+                        </div>
+                        <div id="fill">
+                            <button type="submit">Send</button>
+                            <button type="reset">Clear</button>
+                            <button type="button" onclick="window.print()">Print Form</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    <footer>
+        <p>&copy; 2025 GTA: Vice City Fan Page. All rights reserved.</p>
+        <p>Created by Nkuna Mpho-227929209</p>
+    </footer>
+</body>
+</html>
